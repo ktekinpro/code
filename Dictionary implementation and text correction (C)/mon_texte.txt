@@ -1,0 +1,18 @@
+c was originally developed at bell labs by dennis ritchie, between 1972 and 1973. it was created to make utilities running on unix. later, it was applied to re-implementing the kernel of the unix operating system. during the 1980s, c gradually gained popularity. nowadays, it is one of the most widely used programming languages, with c compilers from various vendors available for the majority of existing computer architectures and operating systems. c has been standardized by the american national standards institute since 1989 and subsequently by the international organization for standardization. 
+
+couldn`t
+mustn`t
+aren`t
+
+Couldn't
+
+
+C (/siː/, as in the letter c) is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. By design, C provides constructs that map efficiently to typical machine instructions, and it has therefore found lasting use in applications that were previously coded in assembly language. Such applications include operating systems, as well as various application software for computers ranging from supercomputers to embedded systems.
+
+C was originally developed at Bell Labs by Dennis Ritchie, between 1972 and 1973. It was created to make utilities running on Unix. Later, it was applied to re-implementing the kernel of the Unix operating system[6]. During the 1980s, C gradually gained popularity. Nowadays, it is one of the most widely used programming languages[7][8], with C compilers from various vendors available for the majority of existing computer architectures and operating systems. C has been standardized by the American National Standards Institute (ANSI) since 1989 (see ANSI C) and subsequently by the International Organization for Standardization (ISO).
+
+C is an imperative procedural language. It was designed to be compiled using a relatively straightforward compiler, to provide low-level access to memory, to provide language constructs that map efficiently to machine instructions, and to require minimal runtime support. Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards-compliant C program that is written with portability in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code; the language has become available on various platforms, from embedded microcontrollers to supercomputers. 
+
+Source : 
+
+	https://en.wikipedia.org/wiki/C_(programming_language)

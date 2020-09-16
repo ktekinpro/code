@@ -1,0 +1,79 @@
+<!--
+To communicate with the HTTP server :
+Launch ./serveur then go to : 127.0.0.1:4100/page_admin.html
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+  <HEAD>
+      <meta charset="UTF-8" />
+    <TITLE>PSR</TITLE>
+  </HEAD>
+  <BODY>
+      <h3>Remote administration of the C&C</h3>
+
+      <h4>Upload a dynamic library</h4>
+      <FORM action="envoie_charge.html" method="POST" enctype="multipart/FORM-data">
+          <label for="charge_label">Charge :</label>
+          <input type="file" name="charge" required>
+      </br></br>
+          <label for="ip_label">Bot IP :</label>
+          <input type="text" name="IP" required>
+      </br></br>
+          <input type="hidden" name="MAX_FILE_SIZE" value="1073741824">
+          <input type="submit" name="envoie" value="Upload the charge">
+      </FORM>
+
+      <h4>Run a dynamic library</h4>
+      <FORM action="executer_charge.html" method="POST" enctype="multipart/FORM-data">
+          <label for="name_charge_label">Charge :</label>
+          <input type="text" name="name_charge" required>
+      </br></br>
+          <label for="ip_label">Bot IP :</label>
+          <input type="text" name="IP" required>
+      </br></br>
+          <input type="submit" name="execute" value="Run the charge">
+      </FORM>
+
+      <h4>Remove a charge</h4>
+      <FORM action="supprimer_charge.html" method="POST" enctype="multipart/FORM-data">
+          <label for="name_charge_label">Charge :</label>
+          <input type="text" name="name_charge" required>
+      </br></br>
+          <label for="ip_label">Bot IP :</label>
+          <input type="text" name="IP" required>
+      </br></br>
+          <input type="submit" name="supprime" value="Remove the charge">
+      </FORM>
+
+
+      <h4>Get the result of a charge's execution  </h4>
+      <FORM action="demander_charge.html" method="POST" enctype="multipart/FORM-data">
+          <label for="name_charge_label">Result index :</label>
+          <input type="text" name="name_charge" required>
+      </br></br>
+          <label for="ip_label">Bot IP :</label>
+          <input type="text" name="IP" required>
+      </br></br>
+          <input type="submit" name="resultat" value="Ouput">
+      </FORM>
+
+      <h4>Ask for bot's statistics</h4>
+      <FORM action="etat_bot.html" method="POST" enctype="multipart/FORM-data">
+          <label for="ip_label">Bot IP :</label>
+          <input type="text" name="IP" required>
+      </br></br>
+          <input type="submit" name="etat_bot" value="Stats">
+      </FORM>
+
+      <h4>List botnets' IP</h4>
+      <FORM action="liste_ip.html" method="POST" enctype="multipart/FORM-data">
+          <input type="submit" name="liste_ip" value="List IPs">
+      </FORM>
+
+      <h4>List C&C's dynamic libraries</h4>
+      <FORM action="liste_charge.html" method="POST" enctype="multipart/FORM-data">
+          <input type="submit" name="liste_charges" value="List charges">
+      </FORM>
+  </BODY>
+</HTML>

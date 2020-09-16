@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/A1_drone.obj-7ac4d58f23288cb82a5bc781a1201e5e.mesh"
+
+[deps]
+
+files=[ "res://.import/A1_drone.obj-7ac4d58f23288cb82a5bc781a1201e5e.mesh" ]
+
+source_file="res://data/A1_drone.obj"
+dest_files=[ "res://.import/A1_drone.obj-7ac4d58f23288cb82a5bc781a1201e5e.mesh", "res://.import/A1_drone.obj-7ac4d58f23288cb82a5bc781a1201e5e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

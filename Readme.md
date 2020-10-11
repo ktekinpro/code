@@ -15,3 +15,4 @@
 * **Mathlab Scripts :** numerical calculations, system resolution
 * **Modelling and autonomous control of the Crazyflie 2.0 :** UAV, embedded systems, sensors network, Matlab, simulation, Godot, physics engine
 * **Objects Segmentation :** image analysis, OpenCV, C++
+* **Steganography Project :** cryptography, C, image analysis
